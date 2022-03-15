@@ -1,12 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on CaoJun Learning Blog </title>
+    <title>Posts on CaoJun Learning Blog</title>
     <link>https://caojun97.github.io/post/</link>
-    <description>Recent content in Posts on CaoJun Learning Blog </description>
+    <description>Recent content in Posts on CaoJun Learning Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://caojun97.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 18:43:06 +0800</lastBuildDate><atom:link href="https://caojun97.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown语法</title>
+      <link>https://caojun97.github.io/post/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Tue, 15 Mar 2022 18:43:06 +0800</pubDate>
+      
+      <guid>https://caojun97.github.io/post/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo&#43;Github部署个人博客</title>
+      <link>https://caojun97.github.io/post/hugo&#43;github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 15 Mar 2022 17:22:09 +0800</pubDate>
+      
+      <guid>https://caojun97.github.io/post/hugo&#43;github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>Hugo+Github个人博客的搭建 在学习过程中，不可避免的要记录学习笔记。学生时代，普遍使用纸质笔记本记录笔记，但纸质笔记有一个致命的缺陷&amp;ndash;遗失不可恢复。参加工作后，逐渐将纸质笔记转移到电子笔记，电子笔记可以随时记录、随时查询等优点。
+市面上电子笔记app有很多，例如OneNote、印象笔记、Notion。目前我也是使用Notion，当然OneNote和印象笔记也简单的使用过。这类笔记app模板很多、上手简单，但也有几个缺点：
+ 笔记资料存储在别人服务器上（服务器关闭服务，无法找回笔记） 笔记资料上传和下载有限制（充值可以解除限制） 应用服务器部署在国外，访问电子笔记受网络限制（访问卡顿）  搭建个人博客记录学习笔记也是必须的，开源搭建博客应用有很多，这里使用了UP：CoodSheep 推荐的Hugo。
+1、Hugo的介绍和安装 Hugo是一款开源的、受欢迎的 静态站点生成器。可以根据用户自定义主体，搭建个性化个人Blog。
+1-1 下载和安装Hugo 本地系统环境：Windows 10 专业版 64位
+Git版本：git version 2.34.1.windows.1
+Hugo下载地址：Hugo_0.94.2_Windows-64bit.zip
+  下载Hugo压缩包
+  解压Hugo压缩包
+  设置hugo.exe环境变量
+在cmd.exe窗口中输入命令：
+hugo version   ​	1-2 创建Blog站点   创建Blog站点
+在cmd.exe窗口中输入命令：
+cd /d d:\document hugo new site myblog   下载Hugo主题
+Hugo主题下载路径：[Hugo主题](Complete List | Hugo Themes (gohugo.io))
+个人博客选择的主题：m10c
+cd /d d:\document\myblog\ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 在config.toml文件中新增一行内容
+theme = &amp;quot;m10c&amp;quot;</description>
+    </item>
+    
     <item>
       <title>My First Blog</title>
       <link>https://caojun97.github.io/post/markdown/</link>
